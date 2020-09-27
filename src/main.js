@@ -20,7 +20,7 @@ Vue.use(Vuetify);
 Vue.use({
   install (Vue) {
   Vue.prototype.$api = axios.create({
-    baseURL: 'http://localhost:3000/'
+    baseURL: 'https://roleplaymta.herokuapp.com'
   })
 }
 })
